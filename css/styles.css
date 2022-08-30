@@ -1,0 +1,218 @@
+/* ============= Global styles ============== */
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* background section */
+.big_background {
+  /* background-color: #333; */
+  background: rgb(0, 0, 0, 0.75);
+  color: #fff;
+  margin-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.video-bg {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* ================ Navigation ==================*/
+.navbar {
+  font-size: 18px;
+  padding: 30px;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.navbar-brand,
+.nav-link {
+  color: rgb(226, 226, 226);
+}
+
+.navbar-brand {
+  font-size: 23px;
+}
+
+.nav-link {
+  font-size: 19px;
+}
+
+/* hover parts */
+
+.nav-link:hover {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+/* ============== Layout============== */
+
+/* all sections */
+#intro {
+  padding: 2.5% 0 2.5%;
+  background-color: white;
+  margin-top: 0;
+}
+#Rwanda_view {
+  background-color: white;
+}
+
+#hotel_view {
+  background-color: #bad7df73;
+  padding: 25px;
+  padding-top: 56px;
+}
+#things_to_do {
+  background-color: white;
+  padding: 2% 3%;
+}
+
+#food_drink {
+  background-color: #bad7df73;
+  padding: 2% 4%;
+}
+
+/* carousel */
+.carousel-inner {
+  background-color: black;
+}
+.carousel-item {
+  padding: 1% 10%;
+  overflow: hidden;
+}
+
+/* cards */
+
+.row {
+  padding: 0 1.25%;
+}
+
+.hotel_cards {
+  padding: 0 5%;
+}
+
+.card {
+  margin: 10px 10px;
+}
+
+.featurette {
+  padding: 20px 80px;
+}
+/* footer section */
+
+.contact {
+  padding: 50px 0;
+  text-align: center;
+  background-color: white;
+}
+
+.bottom-contact {
+  background-color: rgba(54, 151, 180, 0.63);
+  text-align: center;
+  padding: 60px 10px 20px;
+}
+
+/* paragraphy controls + horizontal line  */
+
+hr {
+  border: black 5px dotted;
+  width: 20%;
+  border-top: none;
+}
+
+.source-code {
+  padding-left: 70px;
+}
+
+/* ============== Typography ============*/
+
+.Text {
+  padding: 0 10%;
+  font-size: 1.0625rem;
+}
+.text {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 17% 0;
+}
+
+.secondary-heading {
+  margin: 33px 10px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0.625% 0;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+h4 {
+  font-family: "Pacifico", serif;
+  font-size: 2.95rem;
+}
+
+h5 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* -------footer section------ */
+
+/* bottom-contact */
+
+.bottom-contact a {
+  color: #0a77a1;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.bottom-contact a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-contact p {
+  padding-top: 47px;
+  padding-bottom: 29px;
+}
+
+.contact p {
+  margin-bottom: 38px;
+}
+
+/* =========== Components ============== */
+
+/* button */
+
+.btn-hamburger {
+  color: white;
+}
